@@ -52,6 +52,6 @@ urlpatterns = [
     url(r'^', include(router.urls)),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     url(r'^api-token-auth/', obtain_jwt_token),
-    url(r'^docs/', include_docs_urls("51reboot运维平台"))
+    url(r'^docs/', include_docs_urls("开源运维平台"))
 ]
 
