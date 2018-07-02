@@ -289,3 +289,4 @@ venv.bak/
 
 apps/*/migrations/
 */__pycache__/
+.idea/
