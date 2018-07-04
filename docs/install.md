@@ -170,7 +170,7 @@ python manage.py migrate
 
 接下来同步其它app的表结构
 
-```python
+```bash
 python manage.py makemigrations cabinet idcs manufacturers menu products servers 
 python manage.py migrate idcs
 python manage.py migrate cabinet
@@ -182,7 +182,7 @@ python manage.py migrate servers
 
 
 ##### 创建管理员用户
-```python
+```bash
 python manage.py createsuperuser --username admin --email admin@domain.com
 ```
 
