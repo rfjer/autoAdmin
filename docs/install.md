@@ -58,7 +58,7 @@ sudo yum -y install mariadb mariadb-server mariadb-devel
 
 
 
-#####配置mariadb
+##### 配置mariadb
 
 修改/etc/my.cnf，在[mysqld]下面增加如下几行配置
 
@@ -180,6 +180,11 @@ python manage.py migrate menu
 python manage.py migrate servers
 ```
 
+
+##### 创建管理员用户
+```python
+python manage.py createsuperuser --username admin --email admin@domain.com
+```
 
 
 ##### 起动服务
