@@ -1,6 +1,4 @@
-在测试环境下搭建 autoAdmin
-
-[TOC]
+## 在测试环境下搭建 autoAdmin
 
 ### install on Centos 7
 
