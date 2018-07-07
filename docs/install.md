@@ -187,6 +187,15 @@ python manage.py createsuperuser --username admin --email admin@domain.com
 ```
 
 
+
+##### 同步菜单
+
+```bash
+python scripts/import_menu.py
+```
+
+
+
 ##### 起动服务
 
 ```
